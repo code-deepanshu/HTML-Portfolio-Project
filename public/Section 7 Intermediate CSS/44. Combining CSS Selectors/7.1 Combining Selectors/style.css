@@ -18,3 +18,7 @@ list done {
 li.done{
     color: seagreen;
 }
+
+ul p.done{
+    font-size: .5rem;
+}
