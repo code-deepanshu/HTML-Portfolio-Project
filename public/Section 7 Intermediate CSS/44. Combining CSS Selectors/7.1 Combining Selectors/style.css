@@ -6,3 +6,15 @@ h1, h2{
 .box > p {
     color: firebrick;
 }
+
+list done {
+    color: blue;
+}
+
+.box li{
+    color: blue;
+}
+
+li.done{
+    color: seagreen;
+}
