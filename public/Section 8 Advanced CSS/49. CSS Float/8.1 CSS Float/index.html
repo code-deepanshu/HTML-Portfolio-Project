@@ -10,6 +10,7 @@
   <meta charset="UTF-8">
   <title>CSS Float</title>
   <style>
+    
     div {
       display: inline-block;
       width: 40%;
@@ -21,21 +22,38 @@
 
     .cat {
       background-color: aquamarine;
+      float: left;
     }
 
     .dog {
       background-color: coral;
+      float: right;
+  
     }
 
-    footer {
+      footer {
       text-align: center;
       background-color: blueviolet;
+      clear: both;
     }
+
+    .cat > img{
+      float: left;
+    }
+
+    .dog > img{
+      float: left;
+    }
+
+    
+
+
   </style>
 </head>
 
 <body>
   <div class="cat">
+
     <h2>CatCSS</h2>
 
     <img src="cat.jpeg" alt="cat in a box" />
